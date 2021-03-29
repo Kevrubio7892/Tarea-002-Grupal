@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 8;
+    font-family: sans-serif;
+    color: white;
+}
+/* Menú de navegación */
+.navegacion{
+    border: solid 7px black;
+    background-color:rgb(39, 35, 35);
+    opacity: 1;
+    height:100vh; /*vh: viewport-height --> altura de la ventana gráfica */
+    width: 20%; /*widht: anchura del área del contenido */
+    position: fixed;
+    top: 0%;
+    padding-bottom: 150px;
+    padding-top: 50px;
+    display: block;
+}
+
+.navegacion dt a{
+    text-decoration: none;
+    font-size:x-large;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.navegacion dt:hover{
+    filter: brightness(0.3);
+    transition: 0.5s;
+}
+
+/* Contenido index */
+
+
+
+.contenido1 {
+    background-color: cyan;
+    height:25vh; /*vh: viewport-height --> altura de la ventana gráfica */
+    width: 80%; /*widht: anchura del área del contenido */
+    position: fixed;
+    top: 0%;
+    right: -1.1%;
+    display: block;
+    text-align:justify;
+}
+
+.contenido1 p {
+    margin-left: 110px;
+    margin-right: 110px;
+    padding: 30px;
+}
+
+.contenido1 h3 {
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+
+
+.contenido2 {
+    
+    background-color:yellow;
+    height:25vh; /*vh: viewport-height --> altura de la ventana gráfica */
+    width: 80%; /*widht: anchura del área del contenido */
+    position: fixed;
+    top: 25%;
+    right: -1.1%;
+    display: block;
+}
+.contenido2 p {
+    margin-left: 110px;
+    margin-right: 110px;
+    padding: 30px;
+}
+
+.contenido2 h3 {
+    margin-left: 140px;
+    margin-top: 30px;
+
+}
+
+
+
+
+
+.contenido3 {
+   
+    background-color: orange;
+    height:25vh; /*vh: viewport-height --> altura de la ventana gráfica */
+    width: 80%; /*widht: anchura del área del contenido */
+    position: fixed;
+    top: 50%;
+    right: -1.1%;
+    display: block;
+}
+.contenido3 p {
+    margin-left: 110px;
+    margin-right: 110px;
+    padding: 30px;
+}
+
+.contenido3 h3 {
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+
+
+.contenido4 {
+    
+    background-color:red;
+    height:25vh; /*vh: viewport-height --> altura de la ventana gráfica */
+    width: 80%; /*widht: anchura del área del contenido */
+    position: fixed;
+    top: 75%;
+    right: -1.1%;
+    display: block;
+}
+.contenido4 p {
+    margin-left: 110px;
+    margin-right: 110px;
+    padding: 30px;
+}
+
+.contenido4 h3 {
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+
+.borde{
+    border: solid 3px black;
+    background-color:rgb(39, 35, 35);
+    opacity: 1;
+    height:100vh; /*vh: viewport-height --> altura de la ventana gráfica */
+    width: 3%; /*widht: anchura del área del contenido */
+    position: fixed;
+    left: 1275px;
+    top: 0%;
+    padding-bottom: 150px;
+    display: block;
+}
